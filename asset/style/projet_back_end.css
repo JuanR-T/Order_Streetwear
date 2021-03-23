@@ -1250,6 +1250,16 @@ td:last-child{
 th:last-child{
     text-align: right;
 }
+.btn-cart{
+    display: inline-block;
+    background: rgb(15, 61, 54);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    float: right;   
+}
                                                             /* Product Page 2 */
 
 .main_img_container_p2{
