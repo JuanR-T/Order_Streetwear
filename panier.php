@@ -17,44 +17,44 @@
     <tr>
         <td>
             <div class="cart-info">
-                <img src="buy-1.jpg" alt="imagePanier">
-                <div>
-                    <p>Tee-shirt</p>
-                    <small>Prince: 19,99 EUR</small>
+                <div class="imagePanier_1"></div>
+                <div class="product-info">
+                    <p>Oversized sweatshirt</p>
+                    <small>Prix: 129,99 EUR</small>
                     <br><a href="">Retirer</a>
                 </div>
             </div>
         </td>
         <td><input type="number" value="1"></td>
-        <td>19,99 EUR</td>
+        <td>129,99 EUR</td>
     </tr>
     <tr>
         <td>
             <div class="cart-info">
-                <img src="buy-2.jpg" alt="imagePanier">
-                <div>
-                    <p>Tee-shirt</p>
-                    <small>Prince: 19,99 EUR</small>
+                <div class="imagePanier_2"></div>
+                <div class="product-info">
+                    <p>Chunky sneakers</p>
+                    <small>Prix: 339,99 EUR</small>
                     <br><a href="">Retirer</a>
                 </div>
             </div>
         </td>
         <td><input type="number" value="1"></td>
-        <td>19,99 EUR</td>
+        <td>339,99 EUR</td>
     </tr>
     <tr>
         <td>
             <div class="cart-info">
-                <img src="buy-3.jpg" alt="imagePanier">
-                <div>
-                    <p>Tee-shirt</p>
-                    <small>Prince: 19,99 EUR</small>
+                <div class="imagePanier_3"></div>
+                <div class="product-info">
+                    <p>Bomber jacket</p>
+                    <small>Prix: 199,99 EUR</small>
                     <br><a href="">Retirer</a>
                 </div>
             </div>
         </td>
         <td><input type="number" value="1"></td>
-        <td>19,99 EUR</td>
+        <td>199,99 EUR</td>
     </tr>
 </table>
 
@@ -63,21 +63,21 @@
     <table>
         <tr>
             <td>Sous total</td>
-            <td>60,00 EUR</td>
+            <td>535,98 EUR</td>
         </tr>
         <tr>
             <td>TVA</td>
-            <td>20,00 EUR</td>
+            <td>133,99 EUR</td>
         </tr>
         <tr>
             <td>Total</td>
-            <td>80,00 EUR</td>
+            <td>669,97 EUR</td>
         </tr>
     </table>
 </div>
 
 </div>
 
-
+<?php include 'suggestion.php'; ?>
 <hr>
 <?php include 'config/template/footer.php'; ?>

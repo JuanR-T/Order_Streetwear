@@ -6,7 +6,7 @@
 
 <section class="homebanner">
     <div class="welcometext">
-        <p>Brisez les règles avec style</p>
+        <p>Break the rules</p>
     </div>
 </section>
 

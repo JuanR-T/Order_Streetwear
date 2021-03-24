@@ -9,15 +9,15 @@
         </div>
         <div class="explore_category">
             <h3>EXPLOREZ</h3>
-            <a href="">Man</a>
-            <a href="">Woman</a>
-            <a href="">Kids</a>
+            <a href="">News</a>
+            <a href="">Lookbook</a>
+            <a href="">Blog</a>
         </div>
         <div class="support_category">
             <h3>SUPPORT</h3>
-            <a href="">Man</a>
-            <a href="">Woman</a>
-            <a href="">Kids</a>
+            <a href="">FAQ</a>
+            <a href="">Contact</a>
+            <a href="">Compte</a>
         </div>
         <div class="newsletter_category">
             <h3>NEWSLETTER</h3>
