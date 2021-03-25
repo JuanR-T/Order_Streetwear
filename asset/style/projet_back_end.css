@@ -90,10 +90,10 @@ ul{
 
 .homebanner{
     height: 100vh;
-    background-image: url(../images/john-arano-PaTimQgh2Ik-unsplash.webp);
-    background-position: center;
+    background-image: url(../images/diogo-brandao-aSh-6viqB28-unsplash.webp);
+    background-position: top right;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     position: relative;
 
 }
@@ -111,7 +111,7 @@ ul{
     color:rgb(15, 61, 54);
     justify-content: center;
     position: absolute;
-    top: 2%;
+    top: 1%;
 }
 .welcometext{
     width: 50%;
@@ -127,7 +127,7 @@ ul{
 .welcometext p{
     font-family: 'drip';
     font-size: 3em;
-    color: rgb(15,61,54);
+    color: rgb(19, 78, 69);
     font-weight: bold;
 }
 
