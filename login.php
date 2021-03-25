@@ -20,6 +20,7 @@
                     <label>Mot de passe *</label>
                 </div>
                 <button class="rdv_button" type="button">SE CONNECTER</button>
+                <a href="inscription.php" class="white_link">Vous n'avez pas de compte ?</a>
         </form>
     </section>
 </div>

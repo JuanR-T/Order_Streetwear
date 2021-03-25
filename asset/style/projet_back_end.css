@@ -42,6 +42,7 @@ h1{
     margin: 5px 20px;
     font-weight: 900;
     font-style: oblique;
+    font-size: 2.5em;
     letter-spacing: 1px;
     color:rgb(15, 61, 54);
 }
@@ -65,19 +66,19 @@ nav{
     flex-wrap: wrap;
     margin: 0px 20px;
 }
-nav a, nav a:visited{
+nav .nav-link, nav .nav-link:visited{
     color: rgb(15, 61, 54);
     font-weight: 800;
     font-family: 'raleway';
     font-style: oblique;
 }
-nav a{
+nav .nav-link{
     padding: 0px 5px 0px 5px;
     font-size: 1.2em;
 }
-a, a:visited{ 
+.nav-link, .nav-link:visited{ 
     text-decoration: none;
-    padding: 5px;
+    padding: 6px 0px;
     color: black;
 }
 
@@ -91,44 +92,49 @@ ul{
 .homebanner{
     height: 100vh;
     background-image: url(../images/diogo-brandao-aSh-6viqB28-unsplash.webp);
-    background-position: top right;
+    background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
     position: relative;
-
 }
-
 .sliderNewarrivals{
     height: 100vh;
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
-    
 }
 .sliderNewarrivals h1{
-    height: 50px;
-    color:rgb(15, 61, 54);
-    justify-content: center;
     position: absolute;
-    top: 1%;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px black;
 }
 .welcometext{
-    width: 50%;
+    width: 100%;
     height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 35%;
+    bottom: 10%;
     left: 50%;
     position: absolute;
     transform: translateX(-50%);
+    
 }
 .welcometext p{
     font-family: 'drip';
     font-size: 3em;
-    color: rgb(19, 78, 69);
-    font-weight: bold;
+    color: rgb(15, 61, 54);
+    font-weight:900;
+    margin: 0%;
+    text-shadow: 4px 4px black;
+    letter-spacing: 6px;
+    padding: 5px;
+    width: 100%;
+    left: 54%;
+    text-align: center;
 }
 
                                         /* Slider New Arrivals */
@@ -159,7 +165,7 @@ ul{
     scroll-snap-align:start;
     flex-shrink: 0;
     width: 200px;
-    height: 80%;
+    height: 95%;
     margin: 0px 10px;
     border-radius: 3px;
     transform-origin: left;
@@ -204,25 +210,25 @@ ul{
     color:rgb(15, 61, 54);
 }
 .slidefirst{
-    background-image: url(../images/jean_vest.jpg);
+    background-image: url(../images/jean_vest.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .slidesecond{
-    background-image: url(../images/sweatshirt.jpg);
+    background-image: url(../images/sweatshirt.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .slidethird{
-    background-image: url(../images/sneakers.jpg);
+    background-image: url(../images/sneakers.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .slidefourth{
-    background-image: url(../images/bomber_jacket.jpg);
+    background-image: url(../images/bomber_jacket.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -243,6 +249,7 @@ ul{
       top: -9%;
       left: 50%;
       transform: translateX(-50%);
+      text-shadow: 2px 2px black;
   }
   .collections > div{
       width: 50%;
@@ -257,13 +264,13 @@ ul{
       
   }
   .collections .man{
-    background-image: url(../images/photo_man_collection.jpg);
+    background-image: url(../images/photo_man_collection.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
   .woman{
-    background-image: url(../images/photo_woman_collection.jpg);
+    background-image: url(../images/photo_woman_collection.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -299,8 +306,9 @@ button{
     color: white;
     font-size: 1em;
 }
-button:focus{
-    background-color: rgb(180, 177, 177);
+button:focus, button:hover{
+    background-color: rgb(29, 126, 77);
+    transition: all .35s ease-Out;
 }
 
                                                     /* Footer */
@@ -360,7 +368,7 @@ li{
                                                                 /* Register Page */
 
 .container_inscription{
-    background-image: url(../images/tokyo_street.jpg);
+    background-image: url(../images/tokyo_street.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -430,13 +438,11 @@ input:focus ~ label, textarea:focus ~ label
     font-size: 12px;
     padding: 1px;
 }
-
 input:focus
 {
     outline: none;
     border: 2px solid rgb(31, 168, 73);
 }
-
 input[type="checkbox"]{
     height: 20px;
     width: 6%;
@@ -466,7 +472,6 @@ input[type="checkbox"]{
     box-sizing: border-box;
     margin: 10 0 0 0;
 }
-
 .saisielong
 {
     width: 100%;
@@ -477,15 +482,18 @@ input[type="checkbox"]{
     margin-right: 5px;
     margin-left: 5px;
 }
-
 form div
 {
     margin-top: 10px;
 }
+.white_link{
+    color: white;
+    text-decoration: underline;
+    padding: 5px;
+}
                                                                 /* Login Page */
-    
 .container_login{
-    background-image: url(../images/tokyo_street2.jpg);
+    background-image: url(../images/tokyo_street2.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -510,7 +518,7 @@ form div
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-image: url(../images/subway.jpg);
+    background-image: url(../images/subway.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
@@ -546,7 +554,6 @@ aside{
     height: 400px;
     display: flex;
     flex-direction: column;
-    
 }
 .account_overview{
     display: flex;
@@ -579,25 +586,14 @@ aside h3{
 .orders_overview{
     border-left: 1px black solid;
 }
-                                                        /* Product Page 1 */
-
+                                                            /* Product Page 1 */
 .row {
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    
 }
 .row.two{
     margin: 150px 0px 0px 0px;
-  
-}
-.row.one{
-    width: 100%;
-    height: 60vh;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    /* background-color: white; */
 }
 .col-2{
     width: 50%;
@@ -626,27 +622,6 @@ aside h3{
 strong{
     color: rgb(15, 61, 54);;
 }
-.btn{
-    display: inline-block;
-    background: #ff523b;
-    color: #fff;
-    padding: 8px 30px;
-    margin: 30px 0;
-    border-radius: 30px;
-    transition: background 0.5s;
-}
-.btn:hover{
-    background: #563434
-}
-.header{
-    background: radial-gradient(#fff, #ffd6d6);
-}
-.header .row{
-    margin-top: 70px;
-}
-.categories{
-    margin: 70px 0;
-}
 .col-3{
     flex-basis: 30%;
     min-width: 250px;
@@ -671,24 +646,6 @@ strong{
 .col-4 img{
     width: 100%;
 }
-.title{
-    text-align: center;
-    margin: 0 auto 80px;
-    position: relative;
-    line-height: 60px;
-    color: #555; 
-}
-.title::after{
-    content: '';
-    background: #ff523b;
-    width: 80px;
-    height: 5px;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
 h4{
     color: #555;
     font-weight: normal;
@@ -710,115 +667,12 @@ h4{
 small{
     color: #555;
 }
-
-
-/*footer*/
-.footer{
-    background: #000;
-    color: #8a8a8a;
-    font-size: 14px;
-    padding: 60px 0 20px;
-}
-.footer p{
-    color: #8a8a8a
-}
-.footer h3{
-    color: #fff;
-    margin-bottom: 20px;
-}
-.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
-    min-width: 250px;
-    margin-bottom: 20px;
-}
-.footer-col-1{
-    flex-basis: 30%;
-}
-.footer-col-2, .footer-col-4{
-    flex: 1;
-    text-align: center;
-}
-.footer-col-3{
-    flex-basis: 12%;
-    text-align: center;
-} 
-ul{
-    list-style-type: none;
-}
-.menu-icon{
-    width: 28px;
-    margin-left: 20px;
-    display: none;
-}
-
-/* media query pour menu*/
-@media only screen and (max-width: 800px){
-
-    nav ul{
-        position: absolute;
-        top: 70px;
-        left: 0;
-        background: #333;
-        width: 100%;
-        overflow: hidden;
-        transition: max-height 0.5s;
-    }
-    nav ul li{
-        display:block;
-        margin-right: 50px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    nav ul li a{
-        color: #fff;
-    }
-    .menu-icon{
-        display:block;
-        cursor: pointer;
-    }
-
-}
-
-
-/* all products page*/
-.row-2{
-    justify-content: space-between;
-    margin: 100px auto 50px;
-}
-select{
-    border: 1px solid #093314;
-    padding: 5px;
-}
-select:focus{
-    outline: none;
-}
-.page-btn{
-    margin: 0 auto 80px;
-}
-.page-btn span{
-    display: inline-block;
-    border: 1px solid #ff523b;
-    margin-left: 10px;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    cursor: pointer;
-}
-.page-btn span:hover{
-    background: #ff523b;
-    color: #fff;
-}
-
-
-/*fiche produit*/
-
 .single-product{
     margin-top: 80px;
 }
 .single-product .col-2 img{
     padding: 0;
 }
-
 .single-product h4{
     margin: 20px 0;
     font-size: 22px;
@@ -841,7 +695,6 @@ select:focus{
 input:focus{
     outline: none;
 }
-
 .small_img_container{
     display: flex;
     height: 100px;
@@ -866,41 +719,25 @@ input:focus{
     background-size: cover;
 }
 .main_img_container{
-    background-image: url(../images/jean_vest.jpg);
+    background-image: url(../images/jean_vest.webp);
     width: 50%;
     height: 100%;
     cursor: zoom-in;
 }
 .small_img1{
-    background-image: url(../images/jean_vest1.jpg);
+    background-image: url(../images/jean_vest1.webp);
 }
 .small_img2{
-    background-image: url(../images/jean_vest2.jpg);
+    background-image: url(../images/jean_vest2.webp);
 }
 .small_img3{
-    background-image: url(../images/jean_vest3.jpg);
+    background-image: url(../images/jean_vest3.webp);
 }
 .col-1{
     height: 80vh;
     width: 100%;
 }
-.cart_button{
-    display: flex;
-    padding: 5px 5px 5px 0px;
-}
-
-/*media query for less than 600 screen size*/
-@media only screen and (max-width: 600px){
-    .row{
-        text-align: center;
-    }
-    .col-2, .col-3, .col-4{
-        flex-basis: 100%;
-    }
-}
-                                                                /* Cart Page */
-                                                        
-
+                                                                    /* Cart Page */                                                     
 table{
     width: 100%;
     border-collapse: collapse;
@@ -928,13 +765,13 @@ th{
     margin-right: 10px;
 }
 .imagePanier_1{
-    background-image: url(../images/sweatshirt.jpg);
+    background-image: url(../images/sweatshirt.webp);
 }
 .imagePanier_2{
-    background-image: url(../images/sneakers.jpg);
+    background-image: url(../images/sneakers.webp);
 }
 .imagePanier_3{
-    background-image: url(../images/bomber_jacket.jpg);
+    background-image: url(../images/bomber_jacket.webp);
 }
 .product-info p , .product-info a{
     margin: 0%;
@@ -946,17 +783,20 @@ th{
     text-decoration: underline;
 }
 td{
-    padding: 10px 5px;
+    padding: 10px 0px;
 }
 td input{
     width: 40px;
     height: 30px;
     padding: 5px;
 }
-
 .total-price{
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    right: 0%;
+    position: absolute;
+    width: 50%;
+    align-items:flex-end;
 }
 .total-price table{
     border-top: 3px solid #0c5e3b;
@@ -970,67 +810,69 @@ th:last-child{
     text-align: right;
 }
 .btn-cart{
-    display: inline-block;
     background: rgb(15, 61, 54);
-    color: #fff;
+    color: rgb(124, 54, 54);
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
     transition: background 0.5s;
     float: right;   
 }
+.cart_button{
+    display: flex;
+    padding: 5px 5px 5px 0px;
+    width: 54%;
+    align-items: center;
+    justify-content: center;
+}
                                                             /* Product Page 2 */
-
 .main_img_container_p2{
     width: 50%;
     height: 100%;
-    background-image: url(../images/sweatshirt.jpg);
+    background-image: url(../images/sweatshirt.webp);
     cursor: zoom-in;
 }
 .small_img2_p2, .small_img1_p2,.small_img3_p2,.main_img_container_p2{
-
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }  
 .small_img1_p2{
-    background-image: url(../images/sweatshirt1.jpg);
+    background-image: url(../images/sweatshirt1.webp);
 }
 .small_img2_p2{
-    background-image: url(../images/sweatshirt2.jpg);
+    background-image: url(../images/sweatshirt2.webp);
 }
 .small_img3_p2{
-    background-image: url(../images/sweatshirt3.jpg);
+    background-image: url(../images/sweatshirt3.webp);
 }
-                                                            /* Product Page 3 */
-                                                        
+                                                            /* Product Page 3 */                                         
 .main_img_container_p3{
     width: 50%;
     height: 100%;
-    background-image: url(../images/sneakers.jpg);
+    background-image: url(../images/sneakers.webp);
     cursor: zoom-in;
 }
 .small_img2_p3, .small_img1_p3,.small_img3_p3,.main_img_container_p3{
-
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }  
 .small_img1_p3{
-    background-image: url(../images/sneakers1.jpg);
+    background-image: url(../images/sneakers1.webp);
 }
 .small_img2_p3{
-    background-image: url(../images/sneakers2.jpg);
+    background-image: url(../images/sneakers2.webp);
 }
 .small_img3_p3{
-    background-image: url(../images/sneakers3.jpg);
+    background-image: url(../images/sneakers3.webp);
 }
-                                                            /* Product Page 4 */
+                                                           /* Product Page 4 */
                                                             
 .main_img_container_p4{
     width: 50%;
     height: 100%;
-    background-image: url(../images/bomber_jacket.jpg);
+    background-image: url(../images/bomber_jacket.webp);
     cursor: zoom-in;
 }
 .small_img2_p4, .small_img1_p4,.small_img3_p4,.main_img_container_p4{
@@ -1040,13 +882,13 @@ background-position: center;
 background-size: cover;
 }  
 .small_img1_p4{
-    background-image: url(../images/bomber_jacket1.jpg);
+    background-image: url(../images/bomber_jacket1.webp);
 }
 .small_img2_p4{
-    background-image: url(../images/bomber_jacket2.jpg);
+    background-image: url(../images/bomber_jacket2.webp);
 }
 .small_img3_p4{
-    background-image: url(../images/bomber_jacket3.jpg);
+    background-image: url(../images/bomber_jacket3.webp);
 }
 
                                                         /* Suggestion tab */
@@ -1073,17 +915,14 @@ background-size: cover;
     height: 100%;
 }
 .suggestion_img1{
-    background-image: url(../images/bomber_jacket3.jpg);
+    background-image: url(../images/bomber_jacket3.webp);
 }
 .suggestion_img2{
-    background-image: url(../images/jean_vest2.jpg);
+    background-image: url(../images/jean_vest2.webp);
 }
 .suggestion_img3{
-    background-image: url(../images/sneakers3.jpg);
+    background-image: url(../images/sneakers3.webp);
 }
 .suggestion_img4{
-    background-image: url(../images/sweatshirt3.jpg);
-}
-test{
-    hihihi
+    background-image: url(../images/sweatshirt3.webp);
 }

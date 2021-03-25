@@ -45,8 +45,9 @@
                 <input type="checkbox" id="data" name="data">
                 <p>S'abonner à la newsletter</p>
             </div>
-
+            
             <button class="rdv_button" type="button">S'INSCRIRE</button>
+            <a href="login.php" class="white_link">Vous avez déjà un compte ?</a>
         </form>
     </section>
 </div>

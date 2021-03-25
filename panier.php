@@ -21,7 +21,7 @@
                 <div class="product-info">
                     <p>Oversized sweatshirt</p>
                     <small>Prix: 129,99 EUR</small>
-                    <br><a href="">Retirer</a>
+                    <br><a href=""class="nav-link">Retirer</a>
                 </div>
             </div>
         </td>
@@ -35,7 +35,7 @@
                 <div class="product-info">
                     <p>Chunky sneakers</p>
                     <small>Prix: 339,99 EUR</small>
-                    <br><a href="">Retirer</a>
+                    <br><a href=""class="nav-link">Retirer</a>
                 </div>
             </div>
         </td>
@@ -49,7 +49,7 @@
                 <div class="product-info">
                     <p>Bomber jacket</p>
                     <small>Prix: 199,99 EUR</small>
-                    <br><a href="">Retirer</a>
+                    <br><a href=""class="nav-link">Retirer</a>
                 </div>
             </div>
         </td>
@@ -74,9 +74,9 @@
             <td>669,97 EUR</td>
         </tr>
     </table>
+    <button class="cart_button">Paiement</button>
 </div>
 
-<a href="" class="btn-cart">Procéder au paiement</a>
 
 </div>
 
