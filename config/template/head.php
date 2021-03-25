@@ -12,8 +12,6 @@ require 'config/init.php';
     <title>ORĐER|Streetwear</title>
     <link rel="stylesheet" href="/projet_hetic/asset/style/projet_back_end.css">
     <script src="https://kit.fontawesome.com/8cc5d40cfe.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 

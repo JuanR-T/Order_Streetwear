@@ -76,6 +76,8 @@
     </table>
 </div>
 
+<a href="" class="btn-cart">Procéder au paiement</a>
+
 </div>
 
 <?php include 'suggestion.php'; ?>

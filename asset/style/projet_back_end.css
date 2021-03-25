@@ -711,39 +711,6 @@ small{
     color: #555;
 }
 
-/*avis*/
-.testimonial{
-    padding-top: 100px;
-}
-.testimonial .col-3{
-    text-align: center;
-    padding: 40px 20px;
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
-    cursor: pointer;
-    transition: transform 0.5s;
-}
-.testimonial .col-3 img{
-    width: 50px;
-    margin-top: 20px;
-    border-radius: 50%;
-}
-.testimonial .col-3:hover{
-    transform: translateX(-10px);
-}
-.fa.fa-quote-left{
-    font-size: 34px;
-    color: #ff523b;
-}
-.col-3 p{
-    font-size: 12px;
-    margin: 12px 0;
-    color:#777;
-}
-.testimonial .col-3 h3{
-   font-weight: 600;
-   color: #555;
-   font-size: 16px; 
-}
 
 /*footer*/
 .footer{
@@ -922,7 +889,6 @@ input:focus{
     padding: 5px 5px 5px 0px;
 }
 
-/* https://www.youtube.com/watch?v=ENyk_W-Eleo&t=0s&ab_channel=EasyTutorials : 13min35*/
 /*media query for less than 600 screen size*/
 @media only screen and (max-width: 600px){
     .row{
@@ -1002,6 +968,16 @@ td:last-child{
 }
 th:last-child{
     text-align: right;
+}
+.btn-cart{
+    display: inline-block;
+    background: rgb(15, 61, 54);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    float: right;   
 }
                                                             /* Product Page 2 */
 
