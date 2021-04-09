@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 session_start();
 
 if (isset($_POST['envoyer'])) {
@@ -27,7 +27,7 @@ if (isset($_POST['envoyer'])) {
 ?>
 
 <form action="" method="post">
-    <?=$content?>;
+    
     <label for="pseudo">pseudo</label>
     <input type="text" name="pseudo"
     id="pseudo"><br>
@@ -35,4 +35,4 @@ if (isset($_POST['envoyer'])) {
     <input type="text" name="mdp"
     id="mdp"><br>
     <input type="submit" value="Envoyer" name="envoyer">
-</form>
+</form> -->

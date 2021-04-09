@@ -373,6 +373,9 @@ li{
     background-repeat: no-repeat;
     background-position: center;
 }
+.alert-error{
+    background-color: red;
+}
 .inscription{
     height: 80vh;
     width: 100%;

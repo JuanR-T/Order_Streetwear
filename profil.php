@@ -1,4 +1,15 @@
-<?php include 'config/template/head.php'; ?>
+<?php 
+
+require_once 'config/authentification.php';
+
+if (!connected()) {
+    header('Location:/projet_hetic/login.php');
+    exit();
+}
+
+include 'config/template/head.php'; 
+
+?>
 <header>
     <?php include 'config/template/header.php'; ?>
 </header>
@@ -13,7 +24,7 @@
                 <li>Moyens de paiement</li>
                 <li>Favoris</li>
                 <li>Newsletter</li>
-                <li>Se déconnecter</li>
+                <li><a href="logout.php">Se déconnecter</a></li>
             </ul>
         </article>
         <aside>
