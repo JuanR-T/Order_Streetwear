@@ -48,12 +48,12 @@ if (isset($_POST['envoyer'])) {
                     <button class="google_login"><i class="fab fa-google"></i>&ensp;Se connecter avec google</button>
                 </div>
                 <div class="saisielong">
-                    <input type="text" id="mail" class="textbox" name="pseudo">
-                    <label for="pseudo">Adresse e-mail*</label>
+                    <input type="text" name="mail" class="textbox" placeholder="Pseudo" required="required" autocomplete="off">
+                    <label for="pseudo">Pseudo*</label>
                 </div>
 
                 <div class="saisielong">
-                    <input type="password" id="subject" class="textbox" name="mdp">
+                    <input type="password" name="subject" class="textbox" placeholder="Mot de passe" required="required" autocomplete="off">
                     <label for="mdp">Mot de passe *</label>
                 </div>
                 <input type="submit" value="Envoyer" name="envoyer">
